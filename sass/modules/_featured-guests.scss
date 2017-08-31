@@ -13,7 +13,7 @@
             img {
                 width: 150px;
                 height: 142px;
-                background: #B8ABAB;
+                background: $lightG;
                 box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.55);
                 &:hover {
                     box-shadow: 0px 0px 14px 0px rgba(179,54,220,0.55);
@@ -28,7 +28,7 @@
                     color:$blue;
                 }
                 p {
-                    color: #777;
+                    color: $grey;
                 }
             }
         }
