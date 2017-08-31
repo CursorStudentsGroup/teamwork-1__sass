@@ -13,8 +13,8 @@
     }
     .epilogue-content {
         text-align: left;
-        h2:not(span) {
-            color:$white;
+        h2{
+            @include h2color ($white,$blue);
             text-align: inherit;
         }
         p {

@@ -11,19 +11,17 @@ body {
     font-family:$font-main;
     font-size: 16px;
     font-weight: normal;
-    box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
+    @include shadowBlack();
 
 }
-/*В всіх прикладах що в h2 то має 2 кольори та маргін знизу одинаковий для всіх секцій*/
 h2 {
+    color:black;
     margin-bottom: 40px;
     text-align: center;
-    color: #191919;
 }
-h2 span {
-    color: $blue;
+p {
+    line-height: 1.5;
 }
-/*Для секцій паддінги*/
 section {
     padding: 30px 0 50px;
 }

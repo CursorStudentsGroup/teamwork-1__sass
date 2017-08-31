@@ -1,5 +1,8 @@
 .how-to-consume {
     background-color: $grey;
+    h2 {
+        @include h2color($white,$blue);
+    }
     .steps-list {
         display: flex;
         justify-content: space-around;
@@ -20,7 +23,7 @@
                     size: 20px;
                     weight: bold;
                 }
-                color: #fff;
+                color: $white;
                 text-align: center;
                 word-wrap: break-word;
             }

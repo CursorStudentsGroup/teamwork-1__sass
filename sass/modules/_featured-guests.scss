@@ -1,5 +1,8 @@
 .featured-guests {
     background: $white;
+    h2 {
+        @include h2color(none,$blue)
+    }
     .guests-list {
         display: flex;
         flex-wrap: wrap;
@@ -11,8 +14,8 @@
                 margin-bottom: 50px;
             }
             img {
-                width: 150px;
-                height: 142px;
+                width: 155px;
+                height: 145px;
                 background: $lightG;
                 @include shadowBlack();
                 &:hover {
@@ -22,7 +25,6 @@
             }
             .item-content {
                 margin-left: 15px;
-                padding-top: 10px;
                 h3 {
                     margin-bottom: 10px;
                     color:$blue;

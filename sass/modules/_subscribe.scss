@@ -13,9 +13,9 @@
 }
 .subscribe-action {
     h2 {
+        @include h2color($white,$white);
         margin-bottom: 15px;
         text-align: left;
-        color:#fff;
     }
     &-nav {
         li {

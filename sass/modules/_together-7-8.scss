@@ -9,6 +9,7 @@
 	        flex-direction: column;
 	        padding: 0;
 	        h2 {
+                @include h2color(none,$blue);
                 text-align: left;
                 margin-bottom: 30px;
             }

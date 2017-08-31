@@ -1,7 +1,7 @@
 .latest-episodes {
     background: $dark;
     h2 {
-        color: $white;
+        @include h2color($white,$blue);
     }
     a {
         color: $blue;

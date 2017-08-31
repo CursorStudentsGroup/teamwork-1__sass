@@ -1,3 +1,10 @@
+
+@mixin h2color ($baseC,$spanC) {
+    color:$baseC;
+    span {
+        color: $spanC;
+    }
+}
 @mixin size100 {
     width:100%;
     height:100%;
