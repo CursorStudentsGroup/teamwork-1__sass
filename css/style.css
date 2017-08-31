@@ -10,12 +10,10 @@
 body {
   width: 1170px;
   margin: 0 auto;
-  -webkit-box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
-          box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75); }
-  body font {
-    family: "Roboto", Helvetica, sans-serif;
-    size: 16px;
-    weight: normal; }
+  font-family: "Roboto", Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75); }
 
 /*В всіх прикладах що в h2 то має 2 кольори та маргін знизу одинаковий для всіх секцій*/
 h2 {
@@ -159,15 +157,17 @@ button {
               align-items: center; }
       .how-to-consume .steps-item:nth-of-type(2) p {
         padding: 0 15px;
-        font-size: 20px;
-        font-weight: bold;
         color: #fff;
         text-align: center;
         word-wrap: break-word; }
+        .how-to-consume .steps-item:nth-of-type(2) p font {
+          size: 20px;
+          weight: bold; }
     .how-to-consume .steps-item img {
       width: 100%;
       height: 100%;
       border-radius: 50%; }
+
 
 .latest-episodes {
   background: #191919; }
@@ -283,3 +283,49 @@ button {
           height: 100%;
           -webkit-box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
                   box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75); }
+
+.footer {
+  background-color: #191919; }
+  .footer .epilogue-footer {
+    display: flex; }
+    .footer .epilogue-footer article {
+      padding-top: 0;
+      padding-bottom: 0;
+      flex: 50%; }
+      .footer .epilogue-footer article p {
+        color: #fff; }
+  .footer .epilogue-content {
+    text-align: left; }
+    .footer .epilogue-content h2:not(span) {
+      color: #fff;
+      text-align: inherit; }
+    .footer .epilogue-content p {
+      font-weight: 300; }
+  .footer .epilogue-action {
+    text-align: center;
+    padding: 0 100px; }
+    .footer .epilogue-action p {
+      font-size: 25px;
+      margin-bottom: 50px; }
+    .footer .epilogue-action button {
+      width: 100%;
+      height: 40px;
+      border: 2px solid #fff;
+      border-radius: 5px;
+      font-weight: bold;
+      color: #fff;
+      transition: all .3s;
+      cursor: pointer; }
+      .footer .epilogue-action button:hover {
+        border-color: #28B6E6; }
+      .footer .epilogue-action button:active {
+        color: #28B6E6;
+        border-color: #fff; }
+  .footer .legalese {
+    padding: 15px 0;
+    background-color: #777;
+    color: #fff;
+    text-align: center; }
+
+/*# sourceMappingURL=style.css.map */
+
