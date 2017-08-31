@@ -1,0 +1,104 @@
+@charset "UTF-8";
+/*Для всіх обнуляємо маргіни і падінги , коли вилазить за ел. щоб приховало*/
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/*Центруємо і ширину даємо , та стилі для тексту*/
+body {
+  width: 1170px;
+  margin: 0 auto;
+  font-family: "Roboto", Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  -webkit-box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
+          box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
+}
+
+/*В всіх прикладах що в h2 то має 2 кольори та маргін знизу одинаковий для всіх секцій*/
+h2 {
+  margin-bottom: 40px;
+  text-align: center;
+  color: #191919;
+}
+
+h2 span {
+  color: #00B7E0;
+}
+
+/*Для секцій паддінги*/
+section {
+  padding: 30px 0 50px;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul, li {
+  list-style-type: none;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+  outline: none;
+}
+
+/*Робим контейнер щоб центрувати контент в тиж секціях де потрібно*/
+.container {
+  width: 992px;
+  height: auto;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.featured-guests {
+  background: #fff;
+}
+.featured-guests .guests-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.featured-guests .guests-list .guests-item {
+  width: 48%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.featured-guests .guests-list .guests-item:nth-child(-n+2) {
+  margin-bottom: 50px;
+}
+.featured-guests .guests-list .guests-item img {
+  width: 150px;
+  height: 142px;
+  background: #B8ABAB;
+  -webkit-box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.55);
+          box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.55);
+}
+.featured-guests .guests-list .guests-item img:hover {
+  -webkit-box-shadow: 0px 0px 14px 0px rgba(179, 54, 220, 0.55);
+          box-shadow: 0px 0px 14px 0px rgba(179, 54, 220, 0.55);
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+.featured-guests .guests-list .guests-item .item-content {
+  margin-left: 15px;
+  padding-top: 10px;
+}
+.featured-guests .guests-list .guests-item .item-content h3 {
+  margin-bottom: 10px;
+  color: #28B6E6;
+}
+.featured-guests .guests-list .guests-item .item-content p {
+  color: #777;
+}

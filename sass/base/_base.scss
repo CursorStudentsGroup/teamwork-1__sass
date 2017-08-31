@@ -1,0 +1,47 @@
+/*Для всіх обнуляємо маргіни і падінги , коли вилазить за ел. щоб приховало*/
+* {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+/*Центруємо і ширину даємо , та стилі для тексту*/
+body {
+	width: 1170px;
+	margin:0 auto;
+	font-family: "Roboto", Helvetica, sans-serif;
+    font-size: 16px;
+	font-weight: normal;
+    box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
+
+}
+/*В всіх прикладах що в h2 то має 2 кольори та маргін знизу одинаковий для всіх секцій*/
+h2 {
+    margin-bottom: 40px;
+    text-align: center;
+    color: #191919;
+}
+h2 span {
+    color: #00B7E0;
+}
+/*Для секцій паддінги*/
+section {
+    padding: 30px 0 50px;
+}
+a {
+	text-decoration: none;
+}
+ul, li {
+    list-style-type: none;
+}
+button {
+    border: none;
+    background-color: transparent;
+    outline: none;
+}
+/*Робим контейнер щоб центрувати контент в тиж секціях де потрібно*/
+.container {
+	width:992px;
+	height: auto;
+	padding: 0 20px;
+    margin: 0 auto;
+}
