@@ -8,11 +8,9 @@
 body {
 	width: 1170px;
 	margin:0 auto;
-    font {
-        family:$font-main;
-        size: 16px;
-        weight: normal;
-    }
+    font-family:$font-main;
+    font-size: 16px;
+    font-weight: normal;
     box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
 
 }
