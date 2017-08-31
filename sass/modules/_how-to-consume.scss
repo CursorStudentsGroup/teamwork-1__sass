@@ -7,9 +7,9 @@
     }
     .steps-item{
         @include size_pix(150,150);
+        @include shadowBlack();
         background-color:$dark;
         border-radius: 50%;
-        box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
         &:nth-of-type(2) {
             display: flex;
             justify-content: center;
