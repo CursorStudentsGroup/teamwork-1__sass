@@ -45,6 +45,32 @@ button {
   padding: 0 20px;
   margin: 0 auto; }
 
+.media {
+  padding: 10px 20px 10px 90px;
+  background-color: #fff;
+  display: flex; }
+  .media h3 {
+    white-space: nowrap;
+    line-height: 40px;
+    text-transform: uppercase; }
+  .media .media-nav {
+    width: 100%;
+    margin-left: 40px; }
+    .media .media-nav ul {
+      display: flex;
+      justify-content: space-around; }
+      .media .media-nav ul li {
+        height: 40px;
+        width: 110px;
+        text-align: center; }
+        .media .media-nav ul li a {
+          width: 100%;
+          height: 100%;
+          display: block; }
+          .media .media-nav ul li a img {
+            width: 100%;
+            height: 100%; }
+
 .subscribe {
   background-color: #28B6E6;
   padding-left: 90px;
