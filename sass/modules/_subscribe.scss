@@ -30,6 +30,9 @@
                 display: inline-block;
                 @include size100();
             }
+            img {
+                background-color:$grey;
+            }
         }
     }
 }
