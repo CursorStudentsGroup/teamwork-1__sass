@@ -220,7 +220,7 @@ button {
 .how-to-consume {
   background-color: #777; }
   .how-to-consume h2 {
-    color: #fff; }
+    color: none; }
     .how-to-consume h2 span {
       color: #28B6E6; }
   .how-to-consume .steps-list {
