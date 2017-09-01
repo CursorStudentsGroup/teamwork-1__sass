@@ -49,6 +49,49 @@ button {
   padding: 0 20px;
   margin: 0 auto; }
 
+.header {
+  padding: 0 90px;
+  display: flex; }
+  .header .logo {
+    width: 200px;
+    height: 50px; }
+    .header .logo > img {
+      width: 100%;
+      height: 100%; }
+  .header .header-navbar {
+    display: flex;
+    justify-content: flex-end;
+    height: 50px;
+    background-color: #fff;
+    width: 100%; }
+    .header .header-navbar .navbar-nav {
+      display: flex;
+      width: 40%; }
+      .header .header-navbar .navbar-nav li {
+        flex-grow: 1;
+        text-align: center; }
+        .header .header-navbar .navbar-nav li a {
+          width: 100%;
+          height: 100%;
+          display: inline-block;
+          line-height: 50px;
+          transition: all .3s;
+          background-color: #fff;
+          color: #777; }
+          .header .header-navbar .navbar-nav li a:hover {
+            background-color: #28B6E6;
+            color: #fff; }
+    .header .header-navbar .header-search {
+      height: 50px;
+      padding: 0 2px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center; }
+      .header .header-navbar .header-search img {
+        height: 20px; }
+        .header .header-navbar .header-search img:hover {
+          transform: scale(1.2); }
+
 .banner {
   padding: 80px 20px 80px 90px;
   background-color: #777;
