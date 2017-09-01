@@ -35,8 +35,6 @@
             border-radius:5px;
             font-weight: bold;
             color:$white;
-            transition: all .3s;
-            cursor: pointer;
             &:hover {
                 border-color: $blue;
             }

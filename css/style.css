@@ -34,7 +34,9 @@ ul, li {
 button {
   border: none;
   background-color: transparent;
-  outline: none; }
+  outline: none;
+  cursor: pointer;
+  transition: all .3s; }
 
 /*Робим контейнер щоб центрувати контент в тиж секціях де потрібно*/
 .container {
@@ -186,9 +188,7 @@ button {
     padding: 10px 15px;
     border: 1px solid #28B6E6;
     border-radius: 3px;
-    color: #28B6E6;
-    transition: all .3s;
-    cursor: pointer; }
+    color: #28B6E6; }
     .latest-episodes .more-episodes:hover {
       color: #5E0DAC;
       border-color: #5E0DAC; }
@@ -276,9 +276,7 @@ button {
       border: 2px solid #fff;
       border-radius: 5px;
       font-weight: bold;
-      color: #fff;
-      transition: all .3s;
-      cursor: pointer; }
+      color: #fff; }
       .footer .epilogue-action button:hover {
         border-color: #28B6E6; }
       .footer .epilogue-action button:active {

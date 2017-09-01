@@ -35,6 +35,8 @@ button {
     border: none;
     background-color: transparent;
     outline: none;
+    cursor: pointer;
+    transition: all .3s;
 }
 /*Робим контейнер щоб центрувати контент в тиж секціях де потрібно*/
 .container {
