@@ -83,15 +83,18 @@ button {
             background-color: #28B6E6;
             color: #fff; }
     .header .header-navbar .header-search {
-      height: 50px;
-      padding: 0 2px;
-      display: flex;
-      flex-direction: column;
-      justify-content: center; }
-      .header .header-navbar .header-search img {
-        height: 20px; }
-        .header .header-navbar .header-search img:hover {
-          transform: scale(1.2); }
+      width: 20px;
+      height: 20px;
+      display: inline-block;
+      align-self: center;
+      margin: -3px 0 0 5px;
+      cursor: pointer;
+      transition: all .3s;
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-image: url(data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTYuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgd2lkdGg9IjI0cHgiIGhlaWdodD0iMjRweCIgdmlld0JveD0iMCAwIDYxMiA2MTIiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDYxMiA2MTI7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KPGc+Cgk8ZyBpZD0iU2VhcmNoIj4KCQk8Zz4KCQkJPHBhdGggZD0iTTM4Mi41LDBDMjU1Ljc1OSwwLDE1MywxMDIuNzU5LDE1MywyMjkuNWMwLDUzLjAzNCwxOC4xNDksMTAxLjcwNyw0OC4zNjcsMTQwLjU2OEw4LjQxNSw1NjMuMDIxICAgICBDMi44MTIsNTY4LjYyNSwwLDU3NS45NDksMCw1ODMuMzEyYzAsNy4zNDQsMi44MTIsMTQuNjg4LDguNDE1LDIwLjI5MkMxNCw2MDkuMjA4LDIxLjM0Myw2MTIsMjguNjg4LDYxMiAgICAgczE0LjY4OC0yLjc5MiwyMC4yNzItOC4zOTZsMTkyLjk3MS0xOTIuOTcyQzI4MC43OTMsNDQwLjg1MSwzMjkuNDY3LDQ1OSwzODIuNSw0NTlDNTA5LjI0MSw0NTksNjEyLDM1Ni4yNDEsNjEyLDIyOS41ICAgICBTNTA5LjI0MSwwLDM4Mi41LDB6IE0zODIuNSw0MDEuNjI1Yy05NC45MTcsMC0xNzIuMTI1LTc3LjIwOC0xNzIuMTI1LTE3Mi4xMjVjMC05NC45MTcsNzcuMjA4LTE3Mi4xMjUsMTcyLjEyNS0xNzIuMTI1ICAgICBjOTQuOTE3LDAsMTcyLjEyNSw3Ny4yMDgsMTcyLjEyNSwxNzIuMTI1QzU1NC42MjUsMzI0LjQxNyw0NzcuNDE3LDQwMS42MjUsMzgyLjUsNDAxLjYyNXoiIGZpbGw9IiM2ZTZlNmUiLz4KCQk8L2c+Cgk8L2c+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPC9zdmc+Cg==); }
+      .header .header-navbar .header-search:hover {
+        transform: scale(1.2); }
 
 .banner {
   padding: 80px 20px 80px 90px;
