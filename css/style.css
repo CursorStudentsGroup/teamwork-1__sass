@@ -40,7 +40,8 @@ button {
   background-color: transparent;
   outline: none;
   cursor: pointer;
-  transition: all .3s; }
+  transition: all .3s;
+  font-size: 16px; }
 
 /*Робим контейнер щоб центрувати контент в тиж секціях де потрібно*/
 .container {
