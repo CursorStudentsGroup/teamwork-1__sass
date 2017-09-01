@@ -1,7 +1,7 @@
 .how-to-consume {
     background-color: $grey;
     h2 {
-        @include h2color($white,$blue);
+        @include h2color(none,$blue);
     }
     .steps-list {
         display: flex;
