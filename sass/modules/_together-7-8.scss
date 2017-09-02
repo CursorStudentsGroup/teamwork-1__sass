@@ -20,7 +20,9 @@
                 margin-bottom: 20px;
                 display: flex;
                 img {
-                    width: 120px;
+                        /* Без max-width картинки звужувалисьб потрібна була перезагрузка*/
+                    width: 100%;
+                    max-width: 120px;
                     height: 112px;
                     background: $lightG;
                     @include shadowBlack();
