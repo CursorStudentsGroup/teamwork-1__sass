@@ -1,0 +1,30 @@
+.media {
+    padding: 10px 20px 10px 90px;
+    background-color: $white;
+    display: flex;
+    h3 {
+        white-space:nowrap;
+        line-height: 40px;
+        text-transform: uppercase;
+    }
+    .media-nav {
+        width: 100%;
+        margin-left: 40px;
+        ul {
+            display: flex;
+            justify-content:space-around;
+            li {
+                height: 40px;
+                width: 110px;
+                text-align: center;
+                a {
+                    @include size100();
+                    display: block;
+                    img {
+                        @include size100();
+                    }
+                }
+            }
+        }
+    }
+}

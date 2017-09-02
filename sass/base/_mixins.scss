@@ -1,3 +1,10 @@
+
+@mixin h2color ($baseC,$spanC) {
+    color:$baseC;
+    span {
+        color: $spanC;
+    }
+}
 @mixin size100 {
     width:100%;
     height:100%;
@@ -5,4 +12,16 @@
 @mixin size_pix($width,$height) {
     width:$width + px;
     height:$height + px;
+}
+//shadows
+@mixin shadowBlack {
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+}
+@mixin step {
+    display: inline-block;
+    border-radius: 50%;
+    background: {
+        size: contain;
+        repeat: no-repeat;
+    }
 }

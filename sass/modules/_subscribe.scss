@@ -4,7 +4,7 @@
     padding-right: 20px;
     article {
         display: flex;
-        color:#fff;
+        color:$white;
     }
     section {
         padding:0;
@@ -13,22 +13,25 @@
 }
 .subscribe-action {
     h2 {
+        @include h2color($white,$white);
         margin-bottom: 15px;
         text-align: left;
-        color:#fff;
     }
     &-nav {
         li {
             width: 200px;
             height: 70px;
             display: inline-block;
-            box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+            @include shadowBlack();
             &:nth-child(odd) {
                 margin-right: 15px;
             }
             a,img {
                 display: inline-block;
                 @include size100();
+            }
+            img {
+                background-color:$grey;
             }
         }
     }

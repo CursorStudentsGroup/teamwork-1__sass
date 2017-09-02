@@ -13,8 +13,8 @@
     }
     .epilogue-content {
         text-align: left;
-        h2:not(span) {
-            color:$white;
+        h2{
+            @include h2color ($white,$blue);
             text-align: inherit;
         }
         p {
@@ -33,10 +33,7 @@
             height: 40px;
             border:2px solid $white;
             border-radius:5px;
-            font-weight: bold;
             color:$white;
-            transition: all .3s;
-            cursor: pointer;
             &:hover {
                 border-color: $blue;
             }
