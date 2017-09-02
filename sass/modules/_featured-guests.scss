@@ -14,7 +14,9 @@
                 margin-bottom: 50px;
             }
             img {
-                width: 155px;
+                /* Без max-width картинки звужувалисьб потрібна була перезагрузка*/
+                width: 100%;
+                max-width: 155px;
                 height: 145px;
                 background: $lightG;
                 @include shadowBlack();
