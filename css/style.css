@@ -66,14 +66,14 @@ button {
     background-color: #fff;
     width: 100%; }
     .header .header-navbar .navbar-nav {
-      display: flex;
-      width: 40%; }
+      display: flex; }
       .header .header-navbar .navbar-nav li {
         flex-grow: 1;
         text-align: center; }
         .header .header-navbar .navbar-nav li a {
           width: 100%;
           height: 100%;
+          padding: 0 20px;
           display: inline-block;
           line-height: 50px;
           transition: all .3s;
