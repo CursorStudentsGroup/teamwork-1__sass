@@ -32,6 +32,12 @@
                     h3 {
                         margin-bottom: 10px;
                         color:$blue;
+                        a {
+                            color:$darkBlue;
+                            &:hover {
+                                color:$lightBlue;
+                            }
+                        }
                     }
                     p {
                         color: $grey;
@@ -44,9 +50,13 @@
 	        width: 27%;
 	        h3 {
                 margin-bottom: 15px;
-                span {
-                    color: $blue;
+                a {
+                    color:$darkBlue;
+                    &:hover {
+                        color:$lightBlue;
+                    }
                 }
+                
             }
             .find-us {
                 @include size100();
